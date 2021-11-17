@@ -13,7 +13,7 @@
 body {
   font-family: Roboto, sans-serif;
   color: var(--main-text-color);
-  background: #FFFFFF;;
+  background: #ffffff;
   letter-spacing: 0.03em;
   margin: 0;
 }
@@ -103,13 +103,15 @@ p {
   letter-spacing: 0.02em;
   color: var(--main-text-color);
 }
+.current {
+  color: var(--main-brand-color);
+}
+
 .navigation-link:hover,
 .navigation-link:focus {
   color: var(--main-brand-color);
 }
-.current {
-  color: var(--main-brand-color);
-}
+
 .contacts-list {
   display: flex;
   margin-left: auto;
