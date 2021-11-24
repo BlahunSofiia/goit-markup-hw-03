@@ -49,7 +49,9 @@ img {
 }
 
 .list {
-  list-style-type: none;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 .link {
   text-decoration: none;
@@ -61,7 +63,9 @@ img {
   font-style: normal;
 }
 .section {
-  padding: 94px 0;
+  padding-top: 94px;
+  padding-bottom: 94px;
+  text-align: center;
 }
 
 /*Главная страница*/
@@ -188,14 +192,18 @@ img {
   overflow: hidden;
 }
 .features {
-  padding-bottom: 0;
+  display: flex;
+  justify-content: flex-start;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .features-list {
   display: flex;
 }
-.feature-item {
+.features-item {
   width: 270px;
-  display: inline-block;
+  margin-right: 30px;
+  text-align: left;
 }
 .features-item:not(:last child) {
   margin-right: 30px;
@@ -206,17 +214,21 @@ img {
   margin-bottom: 10px;
   font-weight: 700;
   font-size: 14px;
-  line-height: 1.1;
+  line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 .features-item-text {
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--paragraph-color);
 }
 /*Чем мы занимаемся*/
+.directions {
+  padding-top: 0;
+  padding-bottom: 94px;
+}
 .directions-title,
 .team-title {
   margin-bottom: 50px;
@@ -282,8 +294,14 @@ footer {
   padding: 60px 0;
 }
 .footer-logo {
-  display: block;
-  margin-bottom: 20px;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  color: var(--main-brand-color);
+  text-align: left;
 }
 .address-item {
   margin-bottom: 0;
@@ -293,16 +311,34 @@ footer {
 }
 .address-link {
   display: block;
+  font-style: normal;
+  font-weight: normal;
   font-size: 14px;
-  line-height: 1.7;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--hover-text-color);
 }
 .footer-contacts-link {
-  display: block;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--footer-link-color);
 }
+.footer-contacts-link {
+  display: block;
+}
+.address-link {
+  display: block;
+}
+.address-link:hover,
+.footer-contacts-link:hover,
+.address-link:focus,
+.footer-contacts-link:focus {
+  color: var(--main-brand-color);
+}
+
 /*Страница портфолио*/
 /*Фильтры*/
 .filter-list {
