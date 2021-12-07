@@ -242,7 +242,7 @@ img {
   display: flex;
   flex-wrap: wrap;
 }
-.direction-item:not(:last-child) {
+.directions-item:not(:last-child) {
   margin-right: 30px;
 }
 
