@@ -137,6 +137,7 @@ img {
   font-weight: 500;
   line-height: 1.1;
   letter-spacing: 0.02em;
+  display: block;
   color: var(--paragraph-color);
   padding-top: 32px;
   padding-bottom: 32px;
