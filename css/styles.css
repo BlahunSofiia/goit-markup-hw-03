@@ -242,7 +242,7 @@ img {
   display: flex;
   flex-wrap: wrap;
 }
-.contacts-item:not(:last-child) {
+.direction-item:not(:last-child) {
   margin-right: 30px;
 }
 
@@ -302,9 +302,10 @@ footer {
   letter-spacing: 0.03em;
   color: var(--main-brand-color);
   text-align: left;
+  margin-bottom: 20px;
 }
 .address-item {
-  margin-bottom: 0;
+  margin-bottom: 9px;
 }
 .address-item:last-child {
   margin-bottom: 0;
