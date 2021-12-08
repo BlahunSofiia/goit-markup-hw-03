@@ -303,6 +303,7 @@ footer {
   color: var(--main-brand-color);
   text-align: left;
   margin-bottom: 20px;
+  display: flex;
 }
 .address {
   font-style: normal;
