@@ -293,7 +293,7 @@ footer {
   background-color: var(--block-background-color);
   padding: 60px 0;
 }
-.footer-logo-link {
+.footer-logo {
   margin-bottom: 20px;
   font-family: Raleway;
   font-style: normal;
