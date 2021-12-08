@@ -327,6 +327,7 @@ footer {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--footer-link-color);
+  margin-bottom: 9px;
 }
 .footer-contacts-link {
   display: block;
