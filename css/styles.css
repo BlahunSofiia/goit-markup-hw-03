@@ -294,7 +294,6 @@ footer {
   padding: 60px 0;
 }
 .footer-logo {
-  margin-bottom: 20px;
   font-family: Raleway;
   font-style: normal;
   font-weight: bold;
@@ -303,6 +302,7 @@ footer {
   letter-spacing: 0.03em;
   color: var(--main-brand-color);
   text-align: left;
+  margin-bottom: 20px;
 }
 .address-item {
   margin-bottom: 9px;
